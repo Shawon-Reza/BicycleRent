@@ -15,48 +15,50 @@
 
 <body>
   <div>
-    <!-- Nav bar  -->
+       <!-- Nav bar  -->
     <nav>
-      <div class="navbar bg-base-100 shadow-sm">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
-              <li onclick="window.location.href='/'"><a>Home</a></li>
-              <li onclick="window.location.href='/component/booking.html'"><a>Booking</a></li>
-              <li><a>News</a></li>
-              <li onclick="window.location.href='/component/contactus.html'"><a>Contact US</a></li>
-              <li onclick="window.location.href='/component/login.html'"><a>Login</a></li>
-            </ul>
-          </div>
-          <a class="btn btn-ghost text-xl">
-            <span class="flex justify-center items-center">
-              <img src="https://i.ibb.co/N2mvGJ7X/material-symbols-pedal-bike-outline.png" class="h-9" alt="Bike Icon">
-            </span>
-            <span onclick="window.location.href='/'">Campus Rides</span>
-          </a>
+      <div class="navbar bg-base-100 shadow-sm flex justify-between">
+          <div class="navbar-start">
+              <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                  </div>
+                  <ul tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
+                      <li onclick="window.location.href='/'"><a>Home</a></li>
+                      <li onclick="window.location.href='/component/booking.html'"><a>Booking</a></li>
+                      <li><a>News</a></li>
+                      <li onclick="window.location.href='/component/contactus.html'"><a>Contact US</a></li>
+                      <li onclick="window.location.href='/component/login.html'"><a>Login</a></li>
+                  </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">
+                  <span class="flex justify-center items-center">
+                      <img src="https://i.ibb.co/N2mvGJ7X/material-symbols-pedal-bike-outline.png" class="h-9"
+                          alt="Bike Icon">
+                  </span>
+                  <span onclick="window.location.href='/'">Campus Rides</span>
+              </a>
 
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 font-semibold">
-            <li onclick="window.location.href='/'"><a>Home</a></li>
-            <li onclick="window.location.href='./component/booking.html'"><a>Booking</a></li>
-            <li><a>News</a></li>
-            <li><a>Contact US</a></li>
-            <li onclick="window.location.href='./component/login.html'"><a>Login</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn bg-black text-white">Account</a>
-        </div>
+          </div>
+          <div class="navbar-center hidden lg:flex ">
+              <ul class="menu menu-horizontal px-1 font-semibold ">
+                  <li onclick="window.location.href='/'"><a>Home</a></li>
+                  <li onclick="window.location.href='/component/booking.html'"><a>Booking</a></li>
+                  <li><a>News</a></li>
+                  <li onclick="window.location.href='/component/contactus.html'"><a>Contact US</a></li>
+                  <li onclick="window.location.href='/component/login.html'"><a>Login</a></li>
+              </ul>
+          </div>
+          <div class="">
+              <a class="btn bg-black text-white">Account</a>
+          </div>
       </div>
-    </nav>
+  </nav>
     <section class="mt-10 px-5 container mx-auto">
       <h2 class="text-3xl font-extrabold text-center">Contact Us</h2>
       <p class="text-center opacity-75">Any questions or remarks? Just write us a message!</p>
